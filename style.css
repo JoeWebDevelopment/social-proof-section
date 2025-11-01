@@ -324,11 +324,12 @@ main{
   main{
     margin-block: 2.5rem;
   }
-}
-
-.review-card:nth-of-type(n){
+  .review-card:nth-of-type(n){
   margin: 0;
 }
+
+}
+
 
 @media(max-width: 550px){
  
@@ -351,6 +352,12 @@ main{
   .reviews-wrapper{
     max-width: 372px;
   }
+.review-card:nth-of-type(n){
+  margin: 0;
+}
+
+  
+
 }
 
 
